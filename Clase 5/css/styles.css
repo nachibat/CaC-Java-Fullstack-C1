@@ -1,38 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;400&display=swap');
-/* Selector universal */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
 
-* {
+/* Selectores (Universal) */
+*{
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
-/* Selectores (etiquetas) */
-body {
+/* Selectores (Etiqueta) */
+body{
     background-color: #dcdcdc;
 }
 
-h1 {
+h1{
     color: #ffa500;
     text-align: center;
 }
-
-p {
+p{
     color: #0000ff;
     font-family: 'Roboto Mono', monospace;
 }
 
-/* Selectores (id) */
-#parrafoVerde {
+/* Selectores (Id) */
+#parrafoVerde{
     color: #008000;
 }
 
-/* Selectores (clase) */
-.parrafpRojo {
+/* Selectores (Class) */
+.parrafoRojo{
     color: #ff0000;
 }
 
 /* Selectores (Descendiente) */
-div p {
+div p{
     color: #8a2be2;
 }
